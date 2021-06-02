@@ -1,0 +1,85 @@
+*{
+ margin:0;
+ padding:0;
+}
+
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 100, 0.5)), url(./img/background.jpeg);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-bar{
+  background:rgb(0, 0, 0, 0,5);
+  height:80px;
+}
+
+.logo{
+  margin:10px 50px;
+  height:60px;
+}
+
+.menu{
+  float:right;
+  list-style:none;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  margin:10px 5px;
+}
+
+.menu li a{
+  color:#fff;
+  text-decoration: none;
+  padding:5px 10px;
+  font-size:sans-serif;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+}
+
+.menu li a:hover{
+  color:#000;
+  background-color: #fff;
+  transition:0.7s;
+}
+
+.welcome{
+  position:relative;
+  text-align: center;
+  color:#fff;
+  font-family:sans-serif;
+  top:160px;
+}
+
+.welcome h1{
+  font-size:42px;
+  margin:25px;
+}
+
+.btn{
+  text-decoration:none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 7px 10px;
+  margin:5px;
+  border:1px solid #fff;
+}
+
+.btn1{
+  background-color: #fff;
+  color:#000;
+}
+
+.btn2{
+  color:#fff;
+}
+
+.btn2:hover{
+  color:#000;
+  background-color:#fff;
+  transition:.4px;
+}
